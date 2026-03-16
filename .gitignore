@@ -17,14 +17,13 @@ build/
 venv/
 env/
 
-# Data — images (12MB binary files, re-downloadable via download_images.py)
-data/images/
+# data/images/ — kept in repo for cloud deployment
 
 # Processed CSVs are kept (small, useful for running dashboard without re-scraping)
 # data/processed/  <-- intentionally NOT ignored
 
-# Streamlit cache
-.streamlit/
+# Streamlit cache (keep config.toml but ignore cache files)
+.streamlit/secrets.toml
 
 # IDE
 .vscode/
