@@ -17,9 +17,6 @@ build/
 venv/
 env/
 
-# Data — raw scraped JSON (large, API-key-gated)
-data/raw/
-
 # Data — images (12MB binary files, re-downloadable via download_images.py)
 data/images/
 
