@@ -1,0 +1,47 @@
+# Environment & secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Data — raw scraped JSON (large, API-key-gated)
+data/raw/
+
+# Data — images (12MB binary files, re-downloadable via download_images.py)
+data/images/
+
+# Processed CSVs are kept (small, useful for running dashboard without re-scraping)
+# data/processed/  <-- intentionally NOT ignored
+
+# Streamlit cache
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude session files
+.claude/
+
+# Generated HTML report (regenerate with generate_report.py)
+competition_report.html
