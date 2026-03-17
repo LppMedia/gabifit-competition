@@ -270,8 +270,8 @@ with col_a:
     fig3.update_layout(
         paper_bgcolor="#111", plot_bgcolor="#111",
         font=dict(color="#ccc"),
-        xaxis=dict(showgrid=False, title="Seguidores", color="#555", titlefont=dict(size=11)),
-        yaxis=dict(showgrid=False, title="Engagement %", color="#555", titlefont=dict(size=11)),
+        xaxis=dict(showgrid=False, title=dict(text="Seguidores", font=dict(size=11)), color="#555"),
+        yaxis=dict(showgrid=False, title=dict(text="Engagement %", font=dict(size=11)), color="#555"),
         legend=dict(bgcolor="#1a1a1a", bordercolor="#333", font=dict(size=10)),
         margin=dict(l=20,r=20,t=10,b=40), height=320,
     )
